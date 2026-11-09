@@ -33,7 +33,7 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/matthew-mcateer/ubuntu-lean-mathlib:lean4.34.0-mathlib4.34.0-comparator-d03acab
-            ghcr.io/matthew-mcateer/ubuntu-lean-mathlib:latest
+            ghcr.io/richard-peacock/ubuntu-lean-mathlib:lean4.34.0-mathlib4.34.0-comparator-d03acab
+            ghcr.io/richard-peacock/ubuntu-lean-mathlib:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
