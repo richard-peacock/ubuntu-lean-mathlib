@@ -94,5 +94,5 @@ docker run --rm ubuntu-lean-mathlib:test sh -ec '
 
 After the changes reach `main`, the publish workflow pushes the versioned tag
 and `latest`. Record the registry digest shown by
-`docker buildx imagetools inspect ghcr.io/matthew-mcateer/ubuntu-lean-mathlib:<tag>` in
+`docker buildx imagetools inspect ghcr.io/richard-peacock/ubuntu-lean-mathlib:<tag>` in
 the README as the new immutable reference.
