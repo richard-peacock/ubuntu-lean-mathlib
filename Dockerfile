@@ -2,7 +2,7 @@ FROM public.ecr.aws/docker/library/ubuntu:24.04@sha256:33ceb71981b602c1a7443a534
 
 LABEL org.opencontainers.image.title="ubuntu-lean-mathlib"
 LABEL org.opencontainers.image.description="Ubuntu with Lean, Mathlib, comparator, and verifier dependencies"
-LABEL org.opencontainers.image.source="https://github.com/matthew-mcateer/ubuntu-lean-mathlib"
+LABEL org.opencontainers.image.source="https://github.com/richard-peacock/ubuntu-lean-mathlib"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
